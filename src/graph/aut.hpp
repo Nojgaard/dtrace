@@ -6,6 +6,8 @@
 namespace graph {
 namespace automorphism {
 
+typedef std::vector<vertex> aut_t;
+
 std::vector<std::vector<vertex>> find(const graph_t &g);
 
 }//automorphism
